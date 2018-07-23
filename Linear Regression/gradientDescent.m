@@ -5,7 +5,7 @@ function [theta, CostFunction_history] = gradientDescent(X, y, theta, alpha, num
 m = length(y);                               % Number of training examples
 CostFunction_history = zeros(num_iters, 1);  % Vector of cost function values after each iteration, initialized as an n*1 vector of zeros
 
-for i = 1:num_iters
+for i = 1 : num_iters
 
     % Update theta each iteration
     % X' = X transpose (a 2 by m matrix)
