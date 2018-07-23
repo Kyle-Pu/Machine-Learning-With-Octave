@@ -16,7 +16,7 @@ for i = 1 : num_iters
 
     % Save the cost function value in every iteration    
     % Good in case we need to debug the code (we can output the value of the cost function after each iteration to make sure it is decreasing each time - an indicator that gradient descent is functioning properly)
-    J_history(i) = computeCost(X, y, theta);
+    J_history(i) = CalculatingCostFunction(X, y, theta);
 
 endfor
 
