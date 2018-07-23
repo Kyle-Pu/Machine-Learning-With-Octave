@@ -1,4 +1,4 @@
-function J = CalculatingCostFunctionsforLinearRegression(X, y, theta)
+function J = LinearRegressionCF(X, y, theta)
 
 %J will be returned
 
