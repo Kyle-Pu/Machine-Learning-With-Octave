@@ -17,7 +17,6 @@ theta = gradientDescent(X, y, theta, alpha, iterations);
 fprintf('Theta found by gradient descent:\n');
 fprintf('%f\n', theta);
 
-
 % Plot Data
 hold on; % Overlay new data to same plot
 plot(X(:,2), X*theta, '-') % Plot the x-values from our data, and the hypothesis (X * theta)
