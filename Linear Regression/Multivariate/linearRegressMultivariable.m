@@ -26,12 +26,3 @@ ylabel('Cost J');
 fprintf('Theta computed from gradient descent: \n');
 fprintf(' %f \n', theta);
 fprintf('\n');fprintf('Solving with normal equations...\n');
-
-%% Load Data
-data = csvread('ex1data2.txt');
-X = data(:, 1:2);
-y = data(:, 3);
-m = length(y);
-
-% Add intercept term to X
-X = [ones(m, 1) X];
