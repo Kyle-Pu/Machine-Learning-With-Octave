@@ -22,3 +22,11 @@ hold on; % Overlay new data to same plot
 plot(X(:,2), X*theta, '-') % Plot the x-values from our data, and the hypothesis (X * theta)
 legend('Training data', 'Linear regression')
 hold off; % Don't overlay any more plot data onto this plot
+
+% Predict values for population sizes of 35,000 and 70,000
+predict1 = [1, 3.5] *theta;
+fprintf('For population = 35,000, we predict a profit of %f\n',...
+    predict1*10000);
+predict2 = [1, 7] * theta;
+fprintf('For population = 70,000, we predict a profit of %f\n',...
+    predict2*10000);
