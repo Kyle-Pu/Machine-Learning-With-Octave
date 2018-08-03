@@ -1,5 +1,5 @@
 # Linear Regression
-These are some different ways to implement machine learning linear regression!
+These are some different ways to implement linear regression in machine learning!
 
 ## Specifics
 In both univariate and multivariate linear regression, we calculate the cost function and implement gradient descent. These are also vectorized implementations.
