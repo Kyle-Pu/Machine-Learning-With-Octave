@@ -4,7 +4,7 @@ These are some different ways to implement linear regression in machine learning
 ## Specifics
 In both univariate and multivariate linear regression, we calculate the cost function and implement gradient descent. These are also vectorized implementations.
 
-## Our Dataset
+## Our Datasets
 The univariate and multivariate linear regressions use different datasets both explained in the appropriate folder's README.md.
 
 ### Cost Function
