@@ -11,4 +11,4 @@ The dataset used in these programs represents student scores on two different te
 * Run logisticRegressUnreg.m to run unregularized logistic regression with two approaches - gradient descent and the fminunc function.
 
 ## Disclaimer
-* logisticRegressUnreg.m, plotData.m, plotDecisionBoundary.m, and ex2data1.txt were both provided by a course I'm enrolled in.
+* logisticRegressUnreg.m, plotData.m, plotDecisionBoundary.m, and ex2data1.txt were all provided by a course I'm enrolled in.
