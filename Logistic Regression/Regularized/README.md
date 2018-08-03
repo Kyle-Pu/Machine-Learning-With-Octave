@@ -15,4 +15,4 @@ After plotting our data, we see a non-linear grouping. Therefore, we must use hi
 * Run logisticRegressReg.m to run unregularized logistic regression with two approaches - gradient descent and the fminunc function.
 
 ## Disclaimer
-* logisticRegressReg.m, plotData.m, plotDecisionBoundary.m, and ex2data2.txt were both provided by a course I'm enrolled in.
+* logisticRegressReg.m, plotData.m, plotDecisionBoundary.m, mapFeature.m, and ex2data2.txt were all provided by a course I'm enrolled in.
