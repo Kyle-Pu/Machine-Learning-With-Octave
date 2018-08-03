@@ -1,7 +1,7 @@
 # Linear Regression With the Normal Equation
 The normal equation is a briefer linear regression algorithm compared to gradient descent, which is what is implemented in the Multivariate and Univariate files.
 
-## Dataset
+## Dataset (ex1data2.txt)
 Housing prices (further explained in the multivariate folder's README.md)
 
 ## Normal Equation Compared to Gradient Descent
