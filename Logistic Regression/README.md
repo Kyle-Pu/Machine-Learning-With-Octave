@@ -23,3 +23,6 @@ Our model doesn't accurately divide different outputs into their own regions.
 
 ### Overfitting (High Variance)
 Our model too closely "traces" the data and therefore fits the training data, but won't generalize well and predict accurately on new data.
+
+## Unregularized vs. Regularized
+To overcome the issue of overfitting, we can either get rid of certain features in our dataset or use regularization. Regularization allows us to keep all of our features but shrinks each parameter down to a much smaller magnitude.
