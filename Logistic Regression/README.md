@@ -18,6 +18,8 @@ The decision boundary, simplified, is a figure (could be a line, circle, etc) th
 
 In unregularized logistic regression, we risk underfitting or overfitting.
 
+Look at both folders' README.md's to see what the decision boundary fit by ML looks like.
+
 ### Underfitting (High Bias)
 Our model doesn't accurately divide different outputs into their own regions.
 
