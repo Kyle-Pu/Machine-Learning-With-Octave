@@ -16,4 +16,4 @@ for i = 1 : m,
 endfor 
 %}
 
-end
+endfunction
