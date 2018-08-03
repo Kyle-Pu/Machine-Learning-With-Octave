@@ -1,5 +1,5 @@
 # Logistic Regression
-A classification algorithm.
+A classification algorithm. Using logistic regression, we can predict the outcomes of a certain event. For example, using data from student test scores, we can use logistic regression in machine learning to predict whether or not a student will be accepted into a certain college. Machine learning models trained with logistic regression allow us to "group" discrete values together and predict (based on our training data) future results.
 
 ## Specifics
 In both regularized and unregularized logistic regression (using vectorization in both programs), we calculate the cost function and implement gradient descent. We also use some more advanced optimization functions described in the unregularized logistic regression README.md. 
