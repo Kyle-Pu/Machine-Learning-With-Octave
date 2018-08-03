@@ -1,7 +1,7 @@
 # Univariate Linear Regression With Gradient Descent
 Univariate linear regression is an algorithm in which machine learning can be implemented to produce a linear model of a set of data. The set of data will only have one parameter, or variable, in this case.
 
-## Dataset
+## Dataset (ex1data1.txt)
 The dataset used in these programs represents populations and profits of a food company in various cities. The first column is the population, and the second column is the profit made in each city. Negative = loss.
 
 ## Directions
