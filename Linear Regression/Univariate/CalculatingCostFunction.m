@@ -14,4 +14,4 @@ squaredErrors = errors.^2;  %Calculates element-wise squared errors
 
 J = (1/(2*m))*(sum(squaredErrors));  %Calculates and returns the cost function
 
-endfunction
+end
