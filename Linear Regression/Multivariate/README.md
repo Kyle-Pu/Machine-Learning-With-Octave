@@ -1,7 +1,7 @@
 # Multivariate Linear Regression With Gradient Descent
 Multivariate linear regression is an algorithm in which machine learning can be implemented to produce a linear model of a set of data. The set can have multiple variables, or parameters, in this case. There are some differences such as the necessity of feature normalization in multivariate linear regression.
 
-## Dataset
+## Dataset (ex1data2.txt)
 Our dataset consists of housing price info. "The first column is the size of the house (in square feet), the second column is the number of bedrooms, and the third column is the price of the house." (Provided by the course).
 
 ## Directions
