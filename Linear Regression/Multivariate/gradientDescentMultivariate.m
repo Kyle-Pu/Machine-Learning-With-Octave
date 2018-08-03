@@ -18,6 +18,6 @@ for i = 1 : num_iters
     % Good in case we need to debug the code (we can output the value of the cost function after each iteration to make sure it is decreasing each time - an indicator that gradient descent is functioning properly)
     CostFunction_history(i) = CalculatingCostFunctionMultivariate(X, y, theta);
 
-endfor
+end
 
-endfunction
+end
