@@ -8,4 +8,4 @@ The dataset used in these programs is written in an Octave/MATLAB compatible fil
 * Run oneVsAll.m to create and train several logistic regression algorithms.
 
 ## Disclaimer
-* oneVsAll.m and fmincg.m were both provided by a course I'm enrolled in.
+* oneVsAll.m, displayData.m and fmincg.m were all provided by a course I'm enrolled in.
