@@ -5,7 +5,7 @@ These programs train several logistic regression algorithms at once which then c
 The dataset used in these programs is written in an Octave/MATLAB compatible file. It contains a matrix of numerical values derived from images of handwritten Arabic numerals.
 
 ## Directions
-* Run oneVsAll.m to create and train several logistic regression algorithms.
+* Run recognizeDigits.m to create and train several logistic regression algorithms.
 
 ## Disclaimer
 * oneVsAll.m, displayData.m and fmincg.m were all provided by a course I'm enrolled in.
