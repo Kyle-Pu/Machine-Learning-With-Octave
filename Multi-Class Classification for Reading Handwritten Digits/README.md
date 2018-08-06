@@ -11,7 +11,7 @@ The dataset used in these programs is written in an Octave/MATLAB compatible fil
 * Run recognizeDigits.m to create and train several logistic regression algorithms.
 
 ## Disclaimer
-* oneVsAll.m, displayData.m and fmincg.m were all provided by a course I'm enrolled in.
+* oneVsAll.m, displayData.m, ex3data1.mat and fmincg.m were all provided by a course I'm enrolled in.
 
 ## Note
 fmincg.m is just a better optimized function that calculates the same thing as the fminunc function native to Octave.
