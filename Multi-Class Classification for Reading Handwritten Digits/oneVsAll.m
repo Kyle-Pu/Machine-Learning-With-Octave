@@ -1,10 +1,9 @@
 function [all_theta] = oneVsAll(X, y, num_labels, lambda)
 
 % Some useful variables
-m = size(X, 1);
-n = size(X, 2);
+m = size(X, 1); % Number of rows in X
+n = size(X, 2); % Number of features
 
-% You need to return the following variables correctly 
 all_theta = zeros(num_labels, n + 1);
 
 % Add ones to the X data matrix
@@ -16,7 +15,7 @@ for i = 1 : num_labels,
   initial_theta = zeros(n + 1, 1);
 
   % Set Options
-  options = optimset('GradObj', 'on', 'MaxIter', 400); % GradObj set to on means that we'll be providing the gradient to the function
+  options = optimset('GradObj', 'on', 'MaxIter', 100); % GradObj set to on means that we'll be providing the gradient to the function
 
   % Optimize
   [theta, J, exit_flag] = fmincg(@(t)(lrCostFunction(t, X, (y == i), lambda)), initial_theta, options);
