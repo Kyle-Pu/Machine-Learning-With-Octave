@@ -1,5 +1,5 @@
 # One-Vs-All Logistic Regression for Multiclass Classification
-These programs train several logistic regression algorithms at once which then can be implemented in one-vs-all logistic regression to allow our ML model to categorize between multiple classes. Also, I've created a prediction algorithm used to predict on new data given to our program.
+These programs train several logistic regression algorithms at once which then can be implemented in one-vs-all logistic regression to allow our ML model to categorize between multiple classes. First, we train all the logistic regression classifiers. Then, we can use the prediction algorithm to sort our data and determine the level of accuracy our model provides.
 
 # Specifics
 This folder contains programs that train an ML model to recognize handwritten numbers.
